@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /website2018/wp-admin/
+
+Sitemap: http://2kfilmes.com.br/sitemap_index.xml

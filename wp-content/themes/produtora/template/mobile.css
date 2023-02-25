@@ -1,0 +1,387 @@
+
+/***** Tamanho para smartphones na vertical *****/
+
+@media screen and (max-width: 499px) {
+	.wq-flex{
+		margin:0;
+	}
+
+.wq-05 .wq-titulo_1{
+	font-size: 30px;
+}
+.wq-03 .wq-conteudo .wq-flex{
+	margin-left: 0;
+}
+.wq-03 .wq-conteudo .wq-texto{
+	margin-right: 0;
+}
+.wq-03 .wq-conteudo{
+	height: auto;
+	padding: 40px 0;
+}
+.wq-header_horizontal .wq-btn_menu{
+	margin-left: 0;
+}
+.wq-header .wq-flex{
+	justify-content: space-around;
+	flex-wrap:nowrap;
+}
+.wq-banner{
+	background-size: cover;
+	height: 400px!important;
+	min-height: initial;
+}
+.wq-banner .wq-play figure{
+	width: 30px;
+	height: 30px;
+}
+.wq-01 .wq-texto{
+	padding: 0 20px!important;
+}
+.wq-01 .wq-titulo_1{
+	font-size: 30px;
+}
+.wq-01 .wq-texto p{
+	font-size: 20px;
+}
+.wq-03 .wq-titulo_1{
+	font-size: 40px;
+}
+.wq-03 .wq-conteudo h3{
+	margin-top: 30px;	
+	font-size: 25px;
+}
+.wq-03 .wq-conteudo img{
+	height: 100%;
+}
+.wq-footer h2{
+	padding: 20px;
+}
+.wq-footer .wq-texto{
+	padding: 20px;
+}
+.wq-breadcrumb h1{
+	font-size: 50px;
+}
+.wq-02-contato .wq-conteudo{
+	padding:0!important;
+}
+.wq-02-contato .wq-conteudo figure{
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.wq-01-contato .wq-box_5f .wq-conteudo{
+	padding: 20px 0!important;
+}
+.wq-01-contato form{
+	padding: 20px!important;
+}
+.wq-01-contato .wq-box_5f .wq-conteudo h4{
+	margin-bottom: 20px;
+}
+.wq-02-contato .wq-conteudo{
+	text-align: center;
+	height: auto!important;
+}
+.wq-02-contato .wq-conteudo h3{
+	padding: 0 20px;
+}
+}
+
+/***** Tamanho para smartphones na horizontal *****/
+
+@media screen and (max-width: 649px) and (min-width: 500px) {
+	.wq-flex{
+		margin:0;
+	}
+.wq-05 .wq-titulo_1{
+	font-size: 30px;
+}
+.wq-03 .wq-conteudo .wq-flex{
+	margin-left: 0;
+}
+.wq-03 .wq-conteudo .wq-texto{
+	margin-right: 0;
+}
+.wq-03 .wq-conteudo{
+	height: auto;
+	padding: 40px 0;
+}
+.wq-header_horizontal .wq-btn_menu{
+	margin-left: 0;
+}
+.wq-header .wq-flex{
+	justify-content: space-around;
+	flex-wrap:nowrap;
+}
+.wq-banner{
+	background-size: cover;
+	height: 400px!important;
+	min-height: initial;
+}
+.wq-banner .wq-play figure{
+	width: 30px;
+	height: 30px;
+}
+.wq-01 .wq-texto{
+	padding: 0 20px!important;
+}
+.wq-01 .wq-titulo_1{
+	font-size: 30px;
+}
+.wq-01 .wq-texto p{
+	font-size: 20px;
+}
+.wq-03 .wq-titulo_1{
+	font-size: 40px;
+}
+.wq-03 .wq-conteudo h3{
+	margin-top: 30px;	
+	font-size: 25px;
+}
+.wq-03 .wq-conteudo img{
+	height: 100%;
+}
+.wq-footer h2{
+	padding: 20px;
+}
+.wq-footer .wq-texto{
+	padding: 20px;
+}
+.wq-05 figure img{
+	width: 100%;
+}
+.wq-05 figure{
+	overflow: hidden;
+}
+.wq-02-contato .wq-conteudo{
+	padding:0!important;
+}
+.wq-02-contato .wq-conteudo figure{
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.wq-01-contato .wq-box_5f .wq-conteudo{
+	padding: 20px 0!important;
+}
+.wq-01-contato form{
+	padding: 20px!important;
+}
+.wq-01-contato .wq-box_5f .wq-conteudo h4{
+	margin-bottom: 20px;
+}
+.wq-02-contato .wq-conteudo{
+	text-align: center;
+	height: auto!important;
+}
+.wq-02-contato .wq-conteudo h3{
+	padding: 0 20px;
+}
+}
+
+/***** Tamanho para tablets na vertical *****/
+
+@media screen and (max-width: 749px) and (min-width: 650px) {
+	.wq-flex{
+		margin:0;
+	}
+.wq-05 .wq-titulo_1{
+	font-size: 30px;
+}
+.wq-03 .wq-conteudo .wq-flex{
+	margin-left: 0;
+}
+.wq-03 .wq-conteudo .wq-texto{
+	margin-right: 0;
+}
+.wq-03 .wq-conteudo{
+	height: auto;
+	padding: 40px 0;
+}
+.wq-header_horizontal .wq-btn_menu{
+	margin-left: 0;
+}
+.wq-header .wq-flex{
+	justify-content: space-around;
+	flex-wrap:nowrap;
+}
+.wq-banner{
+	background-size: cover;
+	height: 400px!important;
+	min-height: initial;
+}
+.wq-banner .wq-play figure{
+	width: 30px;
+	height: 30px;
+}
+.wq-01 .wq-texto{
+	padding: 0 20px!important;
+}
+.wq-01 .wq-titulo_1{
+	font-size: 30px;
+}
+.wq-01 .wq-texto p{
+	font-size: 20px;
+}
+.wq-03 .wq-titulo_1{
+	font-size: 40px;
+}
+.wq-03 .wq-conteudo h3{
+	margin-top: 30px;	
+	font-size: 25px;
+}
+.wq-03 .wq-conteudo img{
+	height: 100%;
+}
+.wq-footer h2{
+	padding: 20px;
+}
+.wq-footer .wq-texto{
+	padding: 20px;
+}
+.wq-05 figure img{
+	width: 100%;
+}
+.wq-05 figure{
+	overflow: hidden;
+}
+.wq-footer h2{
+	font-size: 30px;
+}
+
+.wq-02-contato .wq-conteudo{
+	padding:0!important;
+}
+.wq-02-contato .wq-conteudo figure{
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.wq-01-contato .wq-box_5f .wq-conteudo{
+	padding: 20px 0!important;
+}
+.wq-01-contato form{
+	padding: 20px!important;
+}
+.wq-01-contato .wq-box_5f .wq-conteudo h4{
+	margin-bottom: 20px;
+}
+.wq-02-contato .wq-conteudo{
+	text-align: center;
+	height: auto!important;
+}
+.wq-02-contato .wq-conteudo h3{
+	padding: 0 20px;
+}
+.wq-02-contato .wq-conteudo .wq-flex{
+	margin: 0 auto;
+}
+}
+/***** Tamanho para tablets na horizontal *****/
+
+@media screen and (max-width: 999px) and (min-width: 750px) {
+	.wq-flex{
+		margin:0;
+	}
+	.wq-05 .wq-titulo_1{
+	font-size: 30px;
+}
+.wq-03 .wq-conteudo .wq-flex{
+	margin-left: 0;
+}
+.wq-03 .wq-conteudo .wq-texto{
+	margin-right: 0;
+}
+.wq-03 .wq-conteudo{
+	height: auto;
+	padding: 40px 0;
+}
+.wq-header_horizontal .wq-btn_menu{
+	margin-left: 0;
+}
+.wq-header .wq-flex{
+	justify-content: space-around;
+	flex-wrap:nowrap;
+}
+.wq-banner{
+	background-size: cover;
+	height: 400px!important;
+	min-height: initial;
+}
+.wq-banner .wq-play figure{
+	width: 30px;
+	height: 30px;
+}
+.wq-01 .wq-texto{
+	padding: 0 20px!important;
+}
+.wq-01 .wq-titulo_1{
+	font-size: 30px;
+}
+.wq-01 .wq-texto p{
+	font-size: 20px;
+}
+.wq-03 .wq-titulo_1{
+	font-size: 40px;
+}
+.wq-03 .wq-conteudo h3{
+	margin-top: 30px;	
+	font-size: 25px;
+}
+.wq-03 .wq-conteudo img{
+	height: 100%;
+}
+.wq-footer h2{
+	padding: 20px;
+}
+.wq-footer .wq-texto{
+	padding: 20px;
+}
+.wq-05 figure img{
+	width: 100%;
+}
+.wq-05 figure{
+	overflow: hidden;
+}
+.wq-footer h2{
+	font-size: 30px;
+}
+.wq-02-contato .wq-conteudo{
+	padding:0!important;
+}
+.wq-02-contato .wq-conteudo figure{
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.wq-01-contato .wq-box_5f .wq-conteudo{
+	padding: 20px 0!important;
+}
+.wq-01-contato form{
+	padding: 20px!important;
+}
+.wq-01-contato .wq-box_5f .wq-conteudo h4{
+	margin-bottom: 20px;
+}
+.wq-02-contato .wq-conteudo{
+	text-align: center;
+	height: auto!important;
+}
+.wq-02-contato .wq-conteudo h3{
+	padding: 0 20px;
+}
+.wq-02-contato .wq-conteudo .wq-flex{
+	margin: 0 auto;
+}
+
+
+}
+
+/***** Monitores grandes  *****/
+
+@media screen and (min-width: 1600px) {
+	.wq-flex{
+		margin:0;
+	}
+	
+
+
+}

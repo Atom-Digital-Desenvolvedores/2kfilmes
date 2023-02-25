@@ -1,0 +1,119 @@
+
+
+.wq-01-servicos{
+	display: block;
+	padding: 100px 0 50px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../img/wq-03-titulo.jpg);
+}
+.wq-01-servicos .wq-flex{
+	align-items: center;
+	flex-wrap: nowrap;
+
+}
+.wq-01-servicos .wq-texto:after{
+	content: '';
+	height: 100%;
+	width: 3px;
+	background-color: #474747;
+	display: block;
+	position: absolute;
+	right: 0;
+		bottom: 0;
+}
+.wq-01-servicos .wq-texto{
+	position: relative;
+	max-width: 540px;
+	padding: 10px 0;
+	padding-right: 35px;
+}
+.wq-01-servicos .wq-texto p{
+	font-size: 18.92px;
+	font-family: nexa-light;
+	color: #474747;
+	letter-spacing: -0.010em;
+	line-height: 27px;
+	text-align: right;
+}
+.wq-01-servicos .wq-titulo{max-width: 100%;padding-left: 35px;}
+.wq-01-servicos .wq-titulo h1{
+	text-transform: uppercase;
+	font-family: nexa-bold;
+	max-width: 436px;
+	line-height: 61px;
+	font-size: 60px;
+	color: #474747;
+	letter-spacing: -0.010em;
+}
+.wq-01-servicos .wq-titulo p{
+	font-size: 18.92px;
+	font-family: nexa-light;
+	color: #474747;
+	letter-spacing: -0.010em;
+	line-height: 27px;
+	text-align: left;
+	text-transform: capitalize;
+	margin-top: 2px;
+	width: 430px;
+}
+
+.wq-01-servicos .wq-titulo p a{
+	transition: all .2s linear;
+}
+.wq-01-servicos .wq-titulo p a:hover{
+	color: #222;
+}
+
+
+
+
+
+.wq-02-servicos {
+	overflow: hidden;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../img/wq-03-titulo.jpg);
+}
+.wq-02-servicos figure{
+	height: 300px;
+}
+.wq-02-servicos figure{overflow: hidden;}
+
+.wq-02-servicos .wq-galeria-item:first-child{margin-left: 0;}
+.wq-02-servicos .wq-galeria-item:last-child{
+	margin-right: 0;
+}
+.wq-02-servicos .wq-galeria-item{
+	margin:20px 10px;
+}
+.wq-02-servicos{
+	overflow:hidden;
+}
+.wq-02-servicos figure{
+	overflow: hidden;
+}
+.wq-02-servicos figure img{
+	transition: all .35s ease;
+	width: 100%;
+	height: 100%;
+}
+
+
+.wq-footer_bottom{
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-image: url(../img/wq-footer.jpg);
+  background-repeat: no-repeat;
+}
+.wq-footer_top{
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-image: url(../img/wq-03-titulo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}

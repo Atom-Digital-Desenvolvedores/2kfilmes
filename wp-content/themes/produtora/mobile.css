@@ -1,0 +1,177 @@
+@media screen and (max-width: 999px) and (min-width: 100px) {
+  .wq-header {
+    position: absolute;
+  }
+  .wq-header .wq-flex {
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0;
+  }
+  .wq-header .wq-midias-sociais {
+    display: flex;
+    max-width: 100%;
+  }
+  .wq-header_vertical .wq-flex {
+    justify-content: space-between;
+  }
+  .wq-header_vertical .wq-btn_menu {
+    margin: 0 auto 0px;
+  }
+  .wq-header .wq-menu_principal li {
+      margin-right: 0;
+      margin-bottom: 10px;
+      display: block;
+  }
+  .wq-banner video{
+    transform: scale(4.25);
+  }
+  .wq-logo-empresa img {
+    height: 90px;
+    margin: 0px auto 45px;
+  }
+  .wq-titulo_banner{
+    font-size: 28px;
+    line-height: 27px;
+    margin-bottom: 10px;
+  }
+  .wq-desc_banner{
+    font-size: 22px;
+  }
+  .wq-detalhe {
+    width: 95%;
+  }
+  .wq-01 .wq-texto {
+    padding-left: 0px;
+  }
+  .wq-01 {
+    padding: 65px 0 60px;
+  }
+  .wq-footer_bottom form input{
+    width: calc(100% - 22px);
+  }
+  .wq-05 .wq-titulo_1{
+    padding-bottom: 85px;
+    font-size: 45.14px;
+  }
+  .wq-05 .wq-video {
+    transform: scale(0.9);
+  }
+  .wq-footer h2 {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .wq-footer_bottom .wq-conteudo h3{
+    margin-bottom: 30px;
+  }
+  .wq-01-servicos .wq-texto:after{
+    display: none;
+  }
+  .wq-01-servicos .wq-flex{
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .wq-01-servicos .wq-texto{
+    padding-right: 0;
+  }
+  .wq-01-servicos .wq-texto  p,
+  .wq-01-servicos .wq-titulo p{
+    font-size: 14.92px;
+    width: 100%;
+    text-align: left!important;
+  }
+  .wq-01-servicos .wq-titulo h1{
+    font-size: 47px;
+    max-width: 100%;
+  }
+  .wq-01-servicos .wq-titulo{
+    padding-left: 0;
+  }
+  .wq-01-servicos{
+    padding: 130px 0 50px;
+  }
+  .wq-03 .wq-conteudo .wq-flex {
+    align-items: end;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .wq-03 .wq-conteudo {
+    height: auto;
+    padding: 20px 0;
+  }
+  .wq-03 .wq-conteudo .wq-texto {
+    max-width: 100%;
+    margin-right: 0;
+  }
+  .wq-03 .wq-conteudo h3 {
+    margin: 10px 0;
+  }
+  .wq-03 .wq-conteudo figure {
+    width: 65px;
+    height: 65px;
+  }
+  .wq-03 .wq-conteudo h3{
+    font-size: 25.29px;
+  }
+}
+
+/***** Tamanho para smartphones na vertical *****/
+
+@media screen and (max-width: 499px){
+
+}
+
+/***** Tamanho para smartphones na horizontal *****/
+
+@media screen and (max-width: 649px) and (min-width: 500px) {
+
+}
+
+/***** Tamanho para tablets na vertical *****/
+
+@media screen and (max-width: 749px) and (min-width: 650px) {
+
+}
+
+/***** Tamanho para tablets na horizontal *****/
+
+@media screen and (max-width: 999px) and (min-width: 750px) {
+
+}
+
+/***** Monitores pequenos  *****/
+@media screen and (max-width: 1299px) and (min-width: 999px) {
+  .wq-logo-empresa img {
+    display: block;
+    height: 90px;
+    width: auto;
+    margin: -65px auto 45px;
+  }
+  .wq-titulo_banner {
+    font-size: 70px;
+  }
+  .wq-detalhe {
+    width: 70%;
+  }
+}
+
+/***** Monitores medios  *****/
+@media screen and (max-width: 1599px) and (min-width: 1300px) {
+  .wq-logo-empresa img {
+    display: block;
+    height: 110px;
+    width: auto;
+    margin: -65px auto 45px;
+  }
+  .wq-titulo_banner {
+    font-size: 95px;
+  }
+}
+
+/***** Monitores extra grandes  *****/
+
+@media screen and (min-width: 1600px) {
+  
+}

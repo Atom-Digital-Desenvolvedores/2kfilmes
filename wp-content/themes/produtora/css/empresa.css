@@ -1,0 +1,137 @@
+.wq-01-empresa{padding: 100px 0;background-color: #f7f7f7;}
+.wq-01-empresa .wq-box_3,
+.wq-01-empresa .wq-padding{position: relative;}
+.wq-01-empresa .wq-box_3:hover .wq-padding:after{opacity: 1;}
+.wq-01-empresa .wq-padding:after{
+	content: '';
+	background-color: rgba(0,0,0,.85);
+	bottom: 0;
+	transition: opacity 2s;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	display: block;
+}
+.wq-01-empresa .wq-conteudo{
+	background: #fff;
+	position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    text-align: center;
+    transition:1s;
+    padding: 15px 0;
+    width:calc(100% - 30px);
+    margin: 0 auto;
+    max-height: 150px;
+    overflow: hidden;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+}
+.wq-01-empresa .wq-box_3:hover .wq-conteudo{
+	transform:translate(0%, -50%);
+	top: 50%;
+	background: transparent;
+}
+.wq-01-empresa .wq-box_3 .wq-conteudo p:after{
+	width: 40px;
+	height: 2px;
+	content: '';
+	display: block;
+	margin: 10px auto;
+	background: #fdf600;
+}
+.wq-01-empresa .wq-box_3:hover .wq-conteudo p{color: #fff;}
+
+.wq-01-empresa  .wq-titulo_1{
+    font-size: 60px;
+    text-align: center;
+    color: #585858;
+    font-family: din-alternative;
+    margin-bottom: 70px;
+    letter-spacing: -0.010em;
+    text-transform: uppercase;
+}
+.wq-01-empresa .wq-padding img{
+	width: 100%;
+	height: 100%;
+}
+.wq-01-empresa .wq-padding figure{
+	height: 400px;
+}
+
+.wq-01-empresa .wq-midias-sociais{
+	display: flex;
+	margin-bottom: 10px;
+	text-align: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+.wq-01-empresa .wq-midias-sociais li{
+	margin-right: 5px;
+}
+.wq-01-empresa .wq-midias-sociais li:last-child{
+	margin-right: 5px;
+}
+.wq-01-empresa .wq-midias-sociais li a{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 35px;
+	height: 35px;
+	color: #333;
+	font-size: 22px;
+	border-radius: 50%;
+	border:1px solid #333;
+}
+.wq-01-empresa .wq-box_3:hover .wq-midias-sociais li a{
+	border-color: #fff;
+	color: #fff;
+}
+
+.wq-01-empresa .wq-box_3 .wq-conteudo p,
+.wq-01-empresa .wq-box_3 .wq-conteudo h3{
+	font-family: 'Abel', sans-serif;
+}
+.wq-01-empresa .wq-box_3:hover .wq-conteudo h3{
+	color: #fff;
+}
+
+.wq-02-empresa{
+	padding: 70px 0;
+	background-image: url(../img/wq-05.jpg);
+	background-repeat: repeat-y;
+}
+.wq-02-empresa figure{
+	width: 70px;
+	margin: 20px auto;
+	height: 70px;
+}
+.wq-02-empresa img{
+	width: 100%;
+}
+.wq-02-empresa p,
+.wq-02-empresa h2{
+	margin: 10px 0;
+	color: #333;
+	text-align: center;
+	font-family: 'Abel', sans-serif;
+}
+
+
+
+.wq-footer_bottom{
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-image: url(../img/wq-footer.jpg);
+  background-repeat: no-repeat;
+}
+.wq-footer_top{
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-image: url(../img/background-footer-bottom.jpg);
+  background-repeat: no-repeat;
+}
